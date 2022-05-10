@@ -1,1 +1,0 @@
-principal <- function(...) psych::principal(...)
