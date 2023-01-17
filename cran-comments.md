@@ -1,41 +1,37 @@
-Build ID:
+## R CMD check results
 
-traj_1.2.tar.gz-4ee2ff4128654f61a8dc5aaf22d13738
+-- traj 1.3: NOTE
 
-Platform:
+  Build ID:   traj_1.3.tar.gz-bbc26cff453442309ec4a63e3beb2a2b
+  Platform:   Windows Server 2022, R-devel, 64 bit
+  Submitted:  24m 30s ago
+  Build time: 3m 58.8s
 
-Ubuntu Linux 20.04.1 LTS, R-release, GCC
+> checking CRAN incoming feasibility ... [11s] NOTE
+  
 
-Submitted:
+> checking examples ... [36s] NOTE
+  Examples with CPU (user + system) or elapsed time > 5s
+                 user system elapsed
+  wrapperTraj   11.41   0.13   11.57
+  step2factors  11.14   0.16   11.33
+  step3clusters 11.06   0.18   11.34
 
-1 hour 16 minutes 18.2 seconds ago
+> checking for detritus in the temp directory ... NOTE
+  Found the following files/directories:
+    'lastMiKTeXException'
 
-Build time:
+0 errors v | 0 warnings v | 3 notes x
 
-1 hour 34.1 seconds
+-- traj 1.3: CREATED
 
-WARNINGS:
-* checking CRAN incoming feasibility ... WARNING
-Maintainer: ‘Marie-Pierre Sylvestre <marie-pierre.sylvestre@umontreal.ca>’
- 
-Insufficient package version (submitted: 1.2, existing: 1.2)
- 
-New maintainer:
-  Marie-Pierre Sylvestre <marie-pierre.sylvestre@umontreal.ca>
-Old maintainer(s):
-  Dan Vatnik <dan.vatnik@gmail.com>
-NOTES:
-* checking top-level files ... NOTE
-Non-standard file/directory found at top level:
-  ‘cran-comments.md’
-* checking R code for possible problems ... [7s/27s] NOTE
-Found if() conditions comparing class() to string:
-File ‘traj/R/step2factors.R’: if (class(discard) == "character") ...
-File ‘traj/R/step3clusters.R’: if (class(data) != "data.frame") ...
-Use inherits() (or maybe is()) instead.
-* checking examples ... [32s/119s] NOTE
-Examples with CPU (user + system) or elapsed time > 5s
-                user system elapsed
-step3clusters 10.197  0.012  39.776
-wrapperTraj   10.109  0.012  37.391
-step2factors   9.609  0.009  35.417
+  Build ID:   traj_1.3.tar.gz-075ebd503e5a413e8004330759af254e
+  Platform:   Ubuntu Linux 20.04.1 LTS, R-release, GCC
+  Submitted:  24m 30.1s ago
+
+
+-- traj 1.3: CREATED
+
+  Build ID:   traj_1.3.tar.gz-9e8ccae9e67341c481c5fc2f9b632e94
+  Platform:   Fedora Linux, R-devel, clang, gfortran
+  Submitted:  24m 30.1s ago

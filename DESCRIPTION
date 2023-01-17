@@ -1,6 +1,6 @@
 Package: traj
 Title: Trajectory Analysis
-Version: 1.2
+Version: 1.3
 Authors@R: 
     c(
     person(given = "Marie-Pierre",
