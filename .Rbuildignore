@@ -1,0 +1,6 @@
+^README\.Rmd$
+^LICENSE\.md$
+^\.travis\.yml$
+^data-raw$
+^.*\.Rproj$
+^\.Rproj\.user$

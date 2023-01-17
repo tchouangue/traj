@@ -1,3 +1,7 @@
-# traj 0.0.0.9000
+# traj 1.2
 
-* Added a `NEWS.md` file to track changes to the package.
+* R/Step1measure: removed Time from Arguments. The function now creates the Time matrix based on the Data object provided by the user.
+
+* R/wrapperTraj: removed Time from Arguments. The function now creates the Time matrix based on the Data object provided by the user.
+
+* R/Step3clusters: the function now standardizes the measures prior to clustering.
