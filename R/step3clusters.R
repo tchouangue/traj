@@ -145,8 +145,9 @@ step3clusters <- function(trajFactors, nclusters = NULL, nstart = 50, criteria =
   }
 
     # Error checking
-    if(class(data) != "data.frame")
-      stop("data muts be a data.frame")
+    # if(class(data) != "data.frame")
+  if(!is.data.frame(data)) #ICI
+      stop("data must be a data.frame")
 
     if(nclusters > nrow(data) && !is.null(nclusters))
       stop("Requesting more clusters in 'nclusters' than available rows in data.")

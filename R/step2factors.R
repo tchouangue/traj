@@ -52,7 +52,8 @@ step2factors <- function(trajMeasures, num.factors = NULL, discard  = NULL, verb
 
   # Deal with varibles to discard
   if(!is.null(discard)){
-    if(class(discard) == "character")
+    # if(class(discard) == "character")
+    if(is.character(discard)) # ICI!!!!!!!!!!!!!
       vars.to.discard = which(names(trajMeasures$measurments) %in% discard)
     else
       vars.to.discard = discard
