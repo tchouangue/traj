@@ -41,9 +41,11 @@
 #'marie-pierre.sylvestre@umontreal.ca
 #'  
 #' @examples
+#' \dontrun{
 #' # data and time
 #' data = example.data$data 
 #' time = example.data$time
+#' }
 #'
 #' 
 "example.data"

@@ -22,11 +22,12 @@ The function plots a boxplot of values of the trajectories in a cluster at each 
 }
 \examples{
 \dontrun{ 
- # Setup data and time
+ # Setup data 
 data = example.data$data
-time = example.data$time
 
-s1 = step1measures(data,time, ID=TRUE)
+# Run step1measures, step2factors and step3clusters with
+#a predetermined number of clusters
+s1 = step1measures(data, ID=TRUE)
 s2 = step2factors(s1)
 s3.4clusters = step3clusters(s2, nclust = 4)
 

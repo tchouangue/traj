@@ -31,7 +31,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(traj)
 
-# Step 1. Setup data and time
+# Step 1. Setup data 
 data = example.data$data
 
 # Step 2. Computing 24 measures of each trajectory
@@ -54,5 +54,4 @@ plot(s3)
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
-With a different database, make sure to well preprocess it in order to
-clean the data and if necessary, remove outliers.
+<!-- With a different database, make sure to well preprocess it in order to clean the data and if necessary, remove outliers. -->

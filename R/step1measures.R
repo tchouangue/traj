@@ -53,7 +53,8 @@
 #'
 #'
 #'@examples 
-#'# Setup data and time
+#'\dontrun{
+#'# Setup data
 #'data = example.data$data
 #'
 #'# Run step1measures
@@ -65,19 +66,19 @@
 #'# Plot mean trajectory of all individuals
 #'plot(s1$measurments$ID, s1$measurments$m5)
 #'
-#' # The next step would be to run "step2factors"
-#'
+#'# The next step would be to run "step2factors"
+#'}
 #' 
 #' @rdname step1measures
 #' @export 
 step1measures <- function (Data, ID = FALSE, verbose = TRUE) {
   data = Data
-  input.data = data
+  # input.data = data
   m = ncol(data) # ICI
   n = nrow(data)  # ICI
   time = data.frame(t(matrix(rep(1:m, n), nrow = m))) #ICI
   names(time) = paste0("time.", 1:m)
-  input.time = time
+  # input.time = time
   
   sample.size = dim(data)[1]
   if (ID == T) {
@@ -87,10 +88,12 @@ step1measures <- function (Data, ID = FALSE, verbose = TRUE) {
     p = ncol(data)  # ICI
     time = data.frame(t(matrix(rep(1:p, n), nrow = p)))
     names(time) = paste0("time.", 1:p)
-    # time = time[, -1] #ICI
+    # input.time = time
+    
   }
   
   max.num.obs = dim(data)[2]
+  sample.size = dim(data)[1]
   clean.data = matrix(ncol = max.num.obs, nrow = sample.size)
   clean.time = matrix(ncol = max.num.obs, nrow = sample.size)
   num.obs = rep(999, sample.size)

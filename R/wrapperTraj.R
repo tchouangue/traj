@@ -15,7 +15,8 @@
 #'marie-pierre.sylvestre@umontreal.ca
 #'
 #'@examples 
-#' # Setup data and time
+#'\dontrun{
+#' # Setup data
 #' data = example.data$data
 #' 
 #' # Run clustering wrapper function
@@ -23,9 +24,11 @@
 #'
 #' # Display and plot "traj" object
 #' wt
+#' 
 #' summary(wt)
 #'
 #' plot(wt)
+#'}
 #'
 #'
 #' @rdname wrapperTraj

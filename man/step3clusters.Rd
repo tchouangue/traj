@@ -107,6 +107,7 @@ The number of decimal places is defaulted to 2, it can be changed in the paramet
 of \code{\link[traj]{step3clusters}}.
 }
 \examples{
+\dontrun{
 # Setup data 
 data = example.data$data
 
@@ -119,7 +120,7 @@ s3 = step3clusters(s2)
 s3
 plot(s3)
 
-# Run step3measures with predetermined number of clusters
+# Run step3clusters with predetermined number of clusters
 s3.4clusters = step3clusters(s2, nclusters=4)
 
 # Display 'traj' object s3.4clusters
@@ -128,6 +129,7 @@ plot(s3.4clusters)
 
 s3$cluster[1:10,]
 
+}
 
 
 }

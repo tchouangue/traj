@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Marie-Pierre Sylvestre \email{marie-pierre.sylvestre@umontreal.ca}
+\strong{Maintainer}: Gillis Delmas TCHOUANGUE DINKOU \email{gillisdla2@gmail.com}
 
 Authors:
 \itemize{

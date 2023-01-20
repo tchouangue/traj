@@ -98,7 +98,8 @@
 #'marie-pierre.sylvestre@umontreal.ca
 #'
 #' @examples
-#' # Setup data 
+#' \dontrun{
+#'# Setup data 
 #'data = example.data$data
 #'
 #'# Run step1measures, step2factors and step3clusters
@@ -110,7 +111,7 @@
 #'s3
 #'plot(s3)
 #'
-#'# Run step3measures with predetermined number of clusters
+#'# Run step3clusters with predetermined number of clusters
 #'s3.4clusters = step3clusters(s2, nclusters=4)
 #'
 #'# Display 'traj' object s3.4clusters
@@ -119,6 +120,7 @@
 #'
 #'s3$cluster[1:10,]
 #'
+#' }
 #'
 #'
 #' @rdname step3clusters

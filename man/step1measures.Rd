@@ -61,7 +61,8 @@ For the exact equations of the measures, please go to "User guides, package vign
 section of the "traj" package.
 }
 \examples{
-# Setup data and time
+\dontrun{
+# Setup data
 data = example.data$data
 
 # Run step1measures
@@ -74,7 +75,7 @@ head(s1$measurments)
 plot(s1$measurments$ID, s1$measurments$m5)
 
 # The next step would be to run "step2factors"
-
+}
 
 }
 \author{

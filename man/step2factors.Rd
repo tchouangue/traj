@@ -45,7 +45,8 @@ If any measures that happen to be extremely correlated among themselves (corr. >
 will have to be removed. Such measures are flagged by \code{step1measures}. These values can be removed with \code{discard} or they will be automatically removed by the function.
 }
 \examples{
-# Setup data and time
+\dontrun{
+# Setup data 
 data = example.data$data
 
 # Run step1measures and step2factors
@@ -56,6 +57,7 @@ s2 = step2factors(s1)
 head(s2$factors)
 
 # The next step would be to run "step3clusters"
+}
 
 
 }

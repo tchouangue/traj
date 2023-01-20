@@ -9,10 +9,10 @@ Authors@R:
            person(given = "Dan",
            family = "Vatnik",
            role = "aut"),
-           person(given = "Marie-Pierre",
-           family = "Sylvestre",
+           person(given = "Gillis Delmas",
+           family = "TCHOUANGUE DINKOU",
            role = "cre",
-           email = "marie-pierre.sylvestre@umontreal.ca"))
+           email = "gillisdla2@gmail.com"))
 Description: Implements the three-step procedure proposed by Leffondree et al. (2004) to identify clusters of individual longitudinal trajectories. The procedure involves (1) calculating 24 measures describing the features of the trajectories; (2) using factor analysis to select a subset of the 24 measures and (3) using cluster analysis to identify clusters of trajectories, and classify each individual trajectory in one of the clusters.
 License: MIT + file LICENSE
 Encoding: UTF-8

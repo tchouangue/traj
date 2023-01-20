@@ -25,7 +25,8 @@ sequentially with their default parameters. The result of \code{step3clusters} w
 the \code{data} and the \code{time} arguments are found in the 'Details' section of \code{\link[traj]{step1measures}}.
 }
 \examples{
-# Setup data and time
+\dontrun{
+# Setup data
 data = example.data$data
 
 # Run clustering wrapper function
@@ -33,9 +34,11 @@ wt = wrapperTraj(data, ID = TRUE)
 
 # Display and plot "traj" object
 wt
+
 summary(wt)
 
 plot(wt)
+}
 
 
 }

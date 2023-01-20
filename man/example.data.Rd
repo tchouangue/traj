@@ -50,9 +50,11 @@ example.data
 Example data used to display the features of the \code{traj} package.
 }
 \examples{
+\dontrun{
 # data and time
 data = example.data$data 
 time = example.data$time
+}
 
 
 }

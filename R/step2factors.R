@@ -27,7 +27,8 @@
 #'marie-pierre.sylvestre@umontreal.ca
 #'
 #' @examples
-#' # Setup data and time
+#' \dontrun{
+#'# Setup data 
 #'data = example.data$data
 #'
 #' # Run step1measures and step2factors
@@ -38,6 +39,7 @@
 #'head(s2$factors)
 #'
 #'# The next step would be to run "step3clusters"
+#'}
 #'
 #' 
 #' @seealso 
