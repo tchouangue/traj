@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # traj
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/tchouangue/traj/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tchouangue/traj/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of $\texttt{traj}$ is to implement the three-step procedure proposed by Leffondree et al. (2004) to identify clusters of individual longitudinal trajectories. The procedure involves (1) calculating 24 measures describing the features of the trajectories; (2) using factor analysis to select a subset of the 24 measures and (3) using cluster analysis to identify clusters of trajectories, and classify each individual trajectory in one of the clusters.
