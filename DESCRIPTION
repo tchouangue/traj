@@ -1,6 +1,6 @@
 Package: traj
 Title: Trajectory Analysis
-Version: 1.3
+Version: 1.3.1
 Authors@R: 
     c(
     person(given = "Marie-Pierre",
@@ -23,7 +23,6 @@ Depends:
 LazyData: true
 Imports: 
     cluster,
-    GPArotation,
     graphics,
     grDevices,
     NbClust,
